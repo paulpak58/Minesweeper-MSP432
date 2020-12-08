@@ -1,5 +1,5 @@
 /*
- * task_joystick.h
+ * task_print1.h
  *
  *  Created on: Oct 19, 2020
  *      Author: Joe Krachey
@@ -18,6 +18,12 @@
 
 extern TaskHandle_t Task_Joystick_Handle;
 extern TaskHandle_t Task_Joystick_Timer_Handle;
+
+extern volatile uint32_t JOYSTICK_X_DIR;
+extern volatile uint32_t JOYSTICK_Y_DIR;
+
+extern volatile uint32_t ACCEL_X_DIR;
+extern volatile uint32_t ACCEL_Y_DIR;
 
 /******************************************************************************
 * Configure the IO pins for BOTH the X and Y directions of the analog

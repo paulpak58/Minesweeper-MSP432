@@ -36,8 +36,11 @@
 #define RIGHT_HORIZONTAL_LINE_X     (SCREEN_CENTER_COL + (SQUARE_SIZE/2) + PADDING + LINE_WIDTH/2)
 
 #include <stdbool.h>
+#include <stdlib.h>
+#include <stdio.h>
 #include "main.h"
 #include "minesweeper_images.h"
+
 
 typedef enum {UNCOVER,FLAG,MOVE} BOARD_ACTION;
 
@@ -48,8 +51,18 @@ typedef struct{
 extern TaskHandle_t Task_Board_Handle;
 extern QueueHandle_t Queue_Board;
 
+#define BOARD_QUEUE_LEN 2
+#define NUM_MINES 15
+#define MAX_DIMENSION 10
+
+extern char realBoard[MAX_DIMENSION][MAX_DIMENSION];        // board containing the mines
+extern int mines[NUM_MINES][2];                             // array of mines
+extern char myBoard[MAX_DIMENSION][MAX_DIMENSION];
+
 void Task_Board_Init(void);
 
 void Task_Board(void *pvParameters);
+
+void draw_user_image(int x,int y,char input);
 
 #endif /* TASK_BOARD_H_ */

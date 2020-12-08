@@ -28,6 +28,10 @@ extern TaskHandle_t Task_Mouse_Handle;
 extern QueueHandle_t Queue_Mouse;
 //Value used to set how many ms between updates
 extern int Speed;
+extern uint8_t x;
+extern uint8_t y;
+extern uint8_t prev_x;
+extern uint8_t prev_y;
 
 /******************************************************************************
  * This function will initialize Queue_Space_Ship

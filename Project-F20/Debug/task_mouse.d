@@ -42,6 +42,7 @@ task_mouse.obj: /Users/paul/Downloads/Fall2020/ECE353/code-FreeRTOS/Project-F20/
 task_mouse.obj: /Users/paul/Downloads/Fall2020/ECE353/code-FreeRTOS/Project-F20/task_mkII_s1.h
 task_mouse.obj: /Users/paul/Downloads/Fall2020/ECE353/code-FreeRTOS/Project-F20/task_mkII_s2.h
 task_mouse.obj: /Users/paul/Downloads/Fall2020/ECE353/code-FreeRTOS/Project-F20/task_board.h
+task_mouse.obj: /Applications/ti/ccs1010/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include/stdlib.h
 task_mouse.obj: /Users/paul/Downloads/Fall2020/ECE353/code-FreeRTOS/Project-F20/minesweeper_images.h
 task_mouse.obj: /Users/paul/Downloads/Fall2020/ECE353/code-FreeRTOS/Project-F20/task_mouse.h
 task_mouse.obj: /Users/paul/Downloads/Fall2020/ECE353/code-FreeRTOS/Project-F20/lcd.h
@@ -88,6 +89,7 @@ task_mouse.obj: /Users/paul/Downloads/Fall2020/ECE353/code-FreeRTOS/Project-F20/
 /Users/paul/Downloads/Fall2020/ECE353/code-FreeRTOS/Project-F20/task_mkII_s1.h: 
 /Users/paul/Downloads/Fall2020/ECE353/code-FreeRTOS/Project-F20/task_mkII_s2.h: 
 /Users/paul/Downloads/Fall2020/ECE353/code-FreeRTOS/Project-F20/task_board.h: 
+/Applications/ti/ccs1010/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include/stdlib.h: 
 /Users/paul/Downloads/Fall2020/ECE353/code-FreeRTOS/Project-F20/minesweeper_images.h: 
 /Users/paul/Downloads/Fall2020/ECE353/code-FreeRTOS/Project-F20/task_mouse.h: 
 /Users/paul/Downloads/Fall2020/ECE353/code-FreeRTOS/Project-F20/lcd.h: 
